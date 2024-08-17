@@ -11,8 +11,10 @@ export default function Home(props) {
 
         <>
             <h1>home</h1>
-            <FunctionalProps fName={`eslam`} age={21} department={`cs`} hello={`hello`} />
 
+            <FunctionalProps fName={`eslam`} age={21} department={`cs`} hello={`hello`}>
+                <h1>FunctionalChildren</h1>
+            </FunctionalProps>
         </>
     )
 }

@@ -8,9 +8,9 @@ import Parent from './Components/Parent/Parent';
 function App() {
   return (
     <>
-      <One />
+      {/* <One /> */}
 
-      {/* <Home /> */}
+      <Home />
       {/* <Parent /> */}
     </>
   );
